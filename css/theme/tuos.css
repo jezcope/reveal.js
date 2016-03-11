@@ -290,3 +290,9 @@ body {
   background-repeat: no-repeat;
   background-position: 0% 10%;
   background-size: 20%; }
+
+hr {
+  border: 0;
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, #0099ff, #FCFBE3, #0099ff); }
