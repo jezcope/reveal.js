@@ -97,6 +97,10 @@ section.has-light-background {
         }
     }
 
+    .print-pdf & {
+        background-image: none;
+    }
+
 }
 
 /* .reveal dl { */

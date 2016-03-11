@@ -317,6 +317,8 @@ body {
     font-family: "TUoS Stephenson", "Source Sans Pro", Helvetica, sans-serif; }
   .reveal dl dd {
     font-style: italic; }
+  .print-pdf .reveal {
+    background-image: none; }
 
 /* .reveal dl { */
 /*   dd { */
