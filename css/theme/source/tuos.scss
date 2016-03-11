@@ -27,7 +27,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 600;
-$linkColor: #ff0;
+$linkColor: #fff;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -47,16 +47,74 @@ section.has-light-background {
 @import "../template/theme";
 // ---------------------------------------------
 
-body {
+.reveal {
+
     background-image: url(../../images/tuoslogo_rgb_med.jpg);
     background-repeat: no-repeat;
     background-position: 0% 10%;
     background-size: 20%;
+
+    hr {
+        border: 0;
+        height: 5px;
+        width: 100%;
+        background-image: linear-gradient(to right, $backgroundColor, $mainColor, $backgroundColor);
+    }
+
+    a {
+        color: $linkColor;
+        text-decoration: underline;
+
+        -webkit-transition: color .15s ease;
+           -moz-transition: color .15s ease;
+                transition: color .15s ease;
+
+        &:hover {
+            color: $linkColorHover;
+
+            text-shadow: none;
+            border: none;
+        }
+    }
+
+    .subtitle {
+        font-family: $headingFont;
+        /* font-weight: bold; */
+        font-style: italic;
+    }
+    .subhead {
+        font-family: $headingFont;
+        font-weight: bold;
+    }
+
+    dl {
+        dt {
+            margin-top: 1em;
+            font-family: $headingFont;
+        }
+        dd {
+            font-style: italic;
+        }
+    }
+
 }
 
-hr {
-    border: 0;
-    height: 5px;
-    width: 100%;
-    background-image: linear-gradient(to right, $backgroundColor, $mainColor, $backgroundColor);
-}
+/* .reveal dl { */
+/*   dd { */
+/*       display: inline; */
+/*       margin: 0; */
+/*       font-style: italic; */
+/*   } */
+
+/*   dd:after { */
+/*       display: block; */
+/*       content: ''; */
+/*   } */
+
+/*   dt { */
+/*       display: inline-block; */
+/*       min-width: 100px; */
+/*       margin-right: 1em; */
+/*       text-indent: -2em; */
+/*   } */
+/* } */
