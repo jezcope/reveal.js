@@ -299,7 +299,7 @@ body {
   .reveal hr {
     border: 0;
     height: 5px;
-    width: 100%;
+    width: 50vw;
     background-image: linear-gradient(to right, #e24301, #fff, #e24301); }
   .reveal a {
     color: #fff;
