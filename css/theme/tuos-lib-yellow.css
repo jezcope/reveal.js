@@ -15,7 +15,7 @@ body {
   background-color: #ffb819; }
 
 .reveal {
-  font-family: "TUoS Blake", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "TUoS Blake", Arial, Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #fff; }
@@ -46,7 +46,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: "TUoS Stephenson", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "TUoS Stephenson", Georgia, "Times New Roman", serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -312,15 +312,15 @@ body {
       text-shadow: none;
       border: none; }
   .reveal .subtitle {
-    font-family: "TUoS Stephenson", "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "TUoS Stephenson", Georgia, "Times New Roman", serif;
     /* font-weight: bold; */
     font-style: italic; }
   .reveal .subhead {
-    font-family: "TUoS Stephenson", "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "TUoS Stephenson", Georgia, "Times New Roman", serif;
     font-weight: bold; }
   .reveal dl dt {
     margin-top: 1em;
-    font-family: "TUoS Stephenson", "Source Sans Pro", Helvetica, sans-serif; }
+    font-family: "TUoS Stephenson", Georgia, "Times New Roman", serif; }
   .reveal dl dd {
     font-style: italic; }
   .print-pdf .reveal {
