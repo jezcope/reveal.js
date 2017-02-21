@@ -296,6 +296,16 @@ body {
   background-repeat: no-repeat;
   background-position: 0% 10%, 116% -10vh;
   background-size: 20%, 69vh; }
+  .reveal::before {
+    content: "The University Library.";
+    font-family: "TUoS Stephenson";
+    font-size: 2vw;
+    width: 13%;
+    display: block;
+    position: absolute;
+    left: 21%;
+    top: 10%;
+    margin-top: 0.5%; }
   .reveal hr {
     border: 0;
     height: 5px;
