@@ -328,6 +328,10 @@ body {
   .reveal .subhead {
     font-family: "TUoS Stephenson", Georgia, "Times New Roman", serif;
     font-weight: bold; }
+  .reveal .author {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em; }
   .reveal dl dt {
     margin-top: 1em;
     font-family: "TUoS Stephenson", Georgia, "Times New Roman", serif; }

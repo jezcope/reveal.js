@@ -447,6 +447,14 @@
             font-weight: bold;
         }
 
+        .author {
+            display: inline-block;
+            margin: {
+                left: 0.5em;
+                right: 0.5em;
+            }
+        }
+
         dl {
             dt {
                 margin-top: 1em;
